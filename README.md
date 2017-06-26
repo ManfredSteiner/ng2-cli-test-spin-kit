@@ -1,28 +1,35 @@
-# Ng2CliTestSpinKit
+# ng2-cli-test-spin-kit
 
+Project for [https://github.com/WoltersKluwerPL/ng-spin-kit/issues/47](https://github.com/WoltersKluwerPL/ng-spin-kit/issues/47)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.5.
 
-## Development server
+## Project creation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* `ng new test-spin-kit`
+* `cd test-spin-kit`
+* `npm install --save ng2-spin-kit`
 
-## Code scaffolding
+## Files changed
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+* `src/app/app.module.ts`
+* `src/app/app.component.html`
 
-## Build
+## Project build and serve successfull
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* `ng server`
 
-## Running unit tests
+## Startup in browser fails
+```
+Uncaught Error: Unexpected value 'WaveComponent' declared by the module 'AppModule'. Please add a @Pipe/@Directive/@Component annotation.
+    at syntaxError (http://localhost:4200/vendor.bundle.js:43136:34)
+    at http://localhost:4200/vendor.bundle.js:56868:40
+    at Array.forEach (native)
+    at CompileMetadataResolver.getNgModuleMetadata (http://localhost:4200/vendor.bundle.js:56850:54)
+    at JitCompiler._loadModules (http://localhost:4200/vendor.bundle.js:68126:70)
+    at JitCompiler._compileModuleAndComponents (http://localhost:4200/vendor.bundle.js:68099:36)
+    at JitCompiler.compileModuleAsync (http://localhost:4200/vendor.bundle.js:68028:37)
+    at PlatformRef_._bootstrapModuleWithZone (http://localhost:4200/vendor.bundle.js:6052:25)
+    at PlatformRef_.bootstrapModule (http://localhost:4200/vendor.bundle.js:6038:21)
+    at Object.171 (http://localhost:4200/main.bundle.js:19:124)
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

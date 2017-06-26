@@ -5,9 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import * as spinner from 'ng2-spin-kit/app/spinners';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, spinner.WaveComponent
   ],
   imports: [
     BrowserModule,
