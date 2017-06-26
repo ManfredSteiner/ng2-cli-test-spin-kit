@@ -11,12 +11,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Files changed
 
-* `src/app/app.module.ts`
-* `src/app/app.component.html`
+* [src/app/app.module.ts](src/app/app.module.ts)
+* [src/app/app.component.html](src/app/app.component.html)
 
 ## Project build and serve successfull
 
-* `ng server`
+* `ng serve`
 
 ## Startup in browser fails
 ```
