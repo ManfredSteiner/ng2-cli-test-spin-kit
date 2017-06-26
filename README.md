@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project creation
 
-* `ng new test-spin-kit`
-* `cd test-spin-kit`
+* `ng new ng2-cli-test-spin-kit`
+* `cd ng2-cli-test-spin-kit`
 * `npm install --save ng2-spin-kit`
 
 ## Files changed
