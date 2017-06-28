@@ -31,5 +31,7 @@ Uncaught Error: Unexpected value 'WaveComponent' declared by the module 'AppModu
     at PlatformRef_._bootstrapModuleWithZone (http://localhost:4200/vendor.bundle.js:6052:25)
     at PlatformRef_.bootstrapModule (http://localhost:4200/vendor.bundle.js:6038:21)
     at Object.171 (http://localhost:4200/main.bundle.js:19:124)
-```
+``` 
 
+When using Angular version 2.4.1 the kit works as desired.  
+See commit [4f727beb](https://github.com/ManfredSteiner/ng2-cli-test-spin-kit/commit/4f727beb5aac814ffaa88e61c93e8ecbfc1dcc84)
